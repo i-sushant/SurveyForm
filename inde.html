@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="survey.css">
+</head>
+<body>
+	<header>
+	  <h1 id="title">Survey Form For Restaurant</h1>
+    </header>	
+<div id="box">
+    <p id="description" class="item">Tell us how we can improve our services</p>	
+    <div>
+    	<form id="survey-form">
+    		<div class="item">
+ 	          <div class="itemtext">
+    			<label for="name" id="name-labek">Name: </label>
+    		  </div>
+    		  <div class="inputs">
+    			<input type="text" name="name" id="name" class='text' placeholder="Enter your name"required>
+    		  </div>   			
+    		</div>
+    		<div class="item">
+ 	          <div class="itemtext">
+    			<label for="email" id="email-label">Email: </label>
+    		  </div>
+    		  <div class="inputs">
+    			<input type="email" name="email" id="email" class='text' placeholder="Enter your email" required>
+    		  </div>   			
+    		</div>
+    		<div class="item">
+ 	          <div class="itemtext">
+    			<label for="age" id="number-label">Age: </label>
+    		  </div>
+    		  <div class="inputs">
+    			<input type="number" name="age" id="number" class='text' placeholder="Age" required>
+    		  </div>   			
+    		</div>
+    		<div class="item">
+ 	          <div class="itemtext">
+    			<label id="name" for="profession">What is your profession? </label>
+    		  </div>
+    		  <div class="inputs">
+    			<select>
+    				<option id="dropdown">Business</option>
+    				<option id="dropdown">Full time job</option>
+    				<option id="dropdown">Part time job</option>
+    				<option id="dropdown">Student</option>
+    				<option id="dropdown">Homemaker</option>
+    				<option id="dropdown">Other</option>
+    			</select>
+    		  </div>   			
+    		</div>
+    		<div class="item">
+ 	          <div class="itemtext">
+    			<label id="name" for="food">Which items did you eat? </label>
+    		  </div>
+    		  <div class="inputs">
+    			<li><input type="checkbox" name="food" value="1">Barbeque Chicken</li>
+    			<li><input type="checkbox" name="food" value="2">Chicken Olivet</li>
+    			<li><input type="checkbox" name="food" value="3">Spanish Omlette</li>
+    			<li><input type="checkbox" name="food" value="4">Chocolate Bomb</li>
+    			<li><input type="checkbox" name="food" value="5">Caramel Custard</li>   			
+    		</div>
+    		<div class="item">
+ 	          <div class="itemtext">
+    			<label id="name" for="salary">Rate us on a scale of 1-5 </label>
+    		  </div>
+    		  <div class="inputs">
+    			<li><input type="radio" name="rate">5</li>
+    			<li><input type="radio" name="rate">4</li>
+    			<li><input type="radio" name="rate">3</li>
+    			<li><input type="radio" name="rate">2</li>
+    			<li><input type="radio" name="rate">1</li>
+    		  </div>   			
+    		</div>
+    		<div class="item">
+ 	          <div class="itemtext">
+    			<label id="name" for="name">Your comments(if any): </label>
+    		  </div>
+    		  <div class="inputs">
+    			<textarea name placeholder="Write your feedback here" rows="4"cols="35">
+    			</textarea>
+    		  </div>   			
+    		</div>
+    		<button id="submit">Submit</button>
+    	</form>
+    </div>
+ </div>
+</body>
+</html>

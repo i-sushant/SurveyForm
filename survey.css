@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Sunflower:300');
+body{
+	background:linear-gradient(135deg, #8360c3, #2ebf91);
+	font-family: 'Sunflower', sans-serif;
+	text-align:center;
+}
+h1{
+	text-align:center;
+	color:white;
+}
+#box{
+	width:75%;
+	max-width:900px
+	height:auto;
+	background:white;
+	margin:0 auto;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	text-align:center;
+}
+.text{
+	height:2em;
+	width:20em;
+}
+select{
+width:10em;
+height:2em;
+}
+
+.item{
+padding:0.8em 0;
+}
+.itemtext{
+	display:inline-block;
+	width:40%;
+	text-align: right;
+	vertical-align:top;
+	font-size:1.1em;
+}
+.inputs{
+	display:inline-block;
+	width:48%;
+	text-align:left;
+	vertical-align:middle;
+	padding-left:2em;
+}
+li{
+	list-style:none;
+}
+button{
+width:13em;
+height:2.5em;
+border:none;
+border-radius: 50px;
+font-size:1em;
+background:linear-gradient(135deg, #8360c3, #2ebf91);
+}
+button:hover{
+	background:white;
+	border:2px solid #173fd1;
+}
+@media screen and (max-width:833px){
+	.text{
+       width:80%;
+
+	}
+	select{
+		width:90%;
+	}
+	textarea{
+		width:80%;
+	}
+}
+@media screen and (max-width:520px){
+   .itemtext{
+   	padding-left:30px;
+   	width:100%;
+   	text-align: left;
+   }
+   .inputs{
+   	width:80%;
+   	margin:10px 0;
+   	float:left;
+   }
+   .text{
+   	width:100%;
+   }
+   select{
+   	width:100%;
+   }
+   textarea{
+   	width:100%;
+   }
+   button{
+   	height:80%;
+   	width:80%;
+   }
+}
